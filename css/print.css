@@ -1,0 +1,25 @@
+@media print {
+    body {
+        font-size: 12pt;
+        color: #000;
+        background: #fff;
+    }
+
+    .page {
+        background-color: #fff;
+    }
+
+    .page h1, .page h2, .page p {
+        color:#000;
+        text-shadow: none;
+    }
+
+    .nav_logo img {
+        max-height: 60px; 
+    }
+
+    .edit-link,.delete-link,.footer,.comments, .nav_items, .button, a {
+        display: none;
+    }
+
+}
